@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+}
+
+.gallery > img {
+  width: 370px;
+  height: 294px;
+}
+ /* #212121 основной цвет*/
+ /* #757575 серый rgba(255, 255, 255, 0.6)
+ 
