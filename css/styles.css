@@ -1,3 +1,10 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-color: #ffffff;
+}
+
 ul {
   list-style: none;
 }
@@ -6,6 +13,44 @@ ul {
   width: 370px;
   height: 294px;
 }
- /* #212121 основной цвет*/
- /* #757575 серый rgba(255, 255, 255, 0.6)
- 
+
+/*site nav*/
+
+.logotype {
+  color: var(--accent-color);
+}
+.partlogotype {
+  color: var(--title-text-color);
+}
+
+.link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*Section*/
+.section {
+  color: var(--title-text-color);
+}
+
+.section-list-inf,
+.section-staff-position {
+  color: var(--primary-text-color);
+}
+
+/*portfolio page*/
+.gallery-title {
+  color: var(--primary-text-color);
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--button-color);
+}

@@ -11,11 +11,13 @@
     <!--ГЛАВНОЕ МЕНЮ-->
     <header class="page-header">
       <nav>
-        <a href="">Web<span>Studio</span></a>
+        <a href="" class="logotype"
+          >Web<span class="partlogotype">Studio</span>
+        </a>
         <ul class="site-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <ul class="auth-nav">
@@ -27,38 +29,38 @@
     <!--КОНТЕНТ САЙТА-->
     <main>
       <!--Секцыя с картинкой на всю страницу-->
-      <section>
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <button class="button">Заказать услугу</button>
       </section>
 
       <!--Секцыя с текстом об компании-->
-      <section>
+      <section class="section">
         <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+          <li class="section-list">
+            <h3 class="section-list-title">Внимание к деталям</h3>
+            <p class="section-list-inf">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="section-list">
+            <h3 class="section-list-title">Пунктуальность</h3>
+            <p class="section-list-inf">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="section-list">
+            <h3 class="section-list-title">Планирование</h3>
+            <p class="section-list-inf">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
+          <li class="section-list">
+            <h3 class="section-list-title">Современные технологии</h3>
+            <p class="section-list-inf">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -67,25 +69,25 @@
       </section>
 
       <!--Секцыя с тремя картинками-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
+      <section class="section">
+        <h2 class="section-work">Чем мы занимаемся</h2>
+        <ul class="section-work-list">
+          <li class="section-work-img">
             <img src="./images/img1.jpg" alt="фото" width="370" height="294" />
           </li>
-          <li>
+          <li class="section-work-img">
             <img src="./images/img2.jpg" alt="фото" width="370" height="294" />
           </li>
-          <li>
+          <li class="section-work-img">
             <img src="./images/img3.jpg" alt="фото" width="370" height="294" />
           </li>
         </ul>
       </section>
 
       <!--Секцыя, где можна увидеть членов команды, их фото, имена-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-staff">Наша команда</h2>
+        <ul class="section-staff-list">
           <li>
             <img
               src="./images/foto1.jpg"
@@ -93,8 +95,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="section-staff-name">Игорь Демьяненко</h3>
+            <p class="section-staff-position">Product Designer</p>
           </li>
           <li>
             <img
@@ -103,8 +105,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="section-staff-name">Ольга Репина</h3>
+            <p class="section-staff-position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -113,8 +115,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="section-staff-name">Николай Тарасов</h3>
+            <p class="section-staff-position">Marketing</p>
           </li>
           <li>
             <img
@@ -123,8 +125,8 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="section-staff-name">Михаил Ермаков</h3>
+            <p class="section-staff-position">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -132,7 +134,9 @@
 
     <!--ПОДВАЛ-->
     <footer>
-      <a href="">Web<span>Studio</span></a>
+      <a href="" class="logotype"
+        >Web<span class="partlogotype">Studio</span>
+      </a>
       <p>г. Киев, пр-т Леси Украинки, 26</p>
       <!--Связь с разработчиками сайта-->
       <a href="mailto:info@example.com">info@example.com</a> <br />
