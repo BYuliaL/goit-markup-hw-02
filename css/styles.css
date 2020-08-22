@@ -30,6 +30,7 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .partlogotype {
@@ -43,11 +44,16 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.page-header {
+  text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -62,6 +68,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .auth-nav .email:hover,
@@ -87,6 +94,20 @@ ul {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.main-button {
+  background: var(--accent-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--button-color);
 }
 
 .section-list-inf,
@@ -99,8 +120,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -110,8 +129,6 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -162,7 +179,6 @@ ul {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  /* identical to box height, or 200% */
   letter-spacing: 0.06em;
 }
 .gallery-title {
@@ -170,8 +186,6 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 187% */
-
   letter-spacing: 0.03em;
 }
 /*footer*/
@@ -195,4 +209,5 @@ div .footer-tel {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
 }
