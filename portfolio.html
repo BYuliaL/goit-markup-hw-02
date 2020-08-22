@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=block"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -21,21 +25,23 @@
         </ul>
       </nav>
       <ul class="auth-nav">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="email" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--КОНТЕНТ САЙТА-->
     <main>
-      <section class="section">
-        <ul>
-          <li><button>Все</button></li>
-          <li><button>Веб-сайты</button></li>
-          <li><button>Приложения</button></li>
-          <li><button>Дизайн</button></li>
-          <li><button>Маркетинг</button></li>
-        </ul>
-      </section>
+      <ul class="button-list">
+        <li><button type="button" class="button">Все</button></li>
+        <li><button type="button" class="button">Веб-сайты</button></li>
+        <li><button type="button" class="button">Приложения</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
+      </ul>
 
       <section class="section">
         <ul class="gallery">
@@ -106,12 +112,17 @@
     <!--ПОДВАЛ-->
     <footer>
       <a href="" class="logotype"
-        >Web<span class="partlogotype">Studio</span>
+        >Web<span class="partlogotype-footer">Studio</span>
       </a>
-      <p>г. Киев, пр-т Леси Украинки, 26</p>
+      <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
       <!--Связь с разработчиками сайта-->
-      <a href="mailto:info@example.com">info@example.com</a> <br />
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <div class="footer-contacts">
+        <a class="footer-email" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <br />
+        <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+      </div>
     </footer>
   </body>
 </html>
